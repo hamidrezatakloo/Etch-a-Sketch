@@ -11,3 +11,8 @@ for(let i =0; i<size; i++){
         row.appendChild(square);
     }
 }
+
+
+document.addEventListener('mouseover',(e)=>{
+    
+})
