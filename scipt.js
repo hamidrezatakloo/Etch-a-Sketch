@@ -1,6 +1,7 @@
 const container = document.querySelector('.container');
 const size = 16;
 let rgbValue = 158;
+const addValue = -30;
 for(let i =0; i<size; i++){
     const row = document.createElement('div');
     row.classList.add('row');
