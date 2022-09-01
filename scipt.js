@@ -18,5 +18,6 @@ for(let i =0; i<size; i++){
 document.addEventListener('mouseover',(e)=>{
     if (! e.target.matches('.row > .square'))
         return;
-    e.target.style.backgroundColor = `rgb(${rgbValue},${rgbValue},${rgbValue})`;    
+    e.target.style.backgroundColor = `rgb(${rgbValue},${rgbValue},${rgbValue})`;
+    rgbValue += addValue    
 })
