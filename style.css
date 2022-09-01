@@ -17,3 +17,7 @@ body{
     height: 100%;
     flex-direction: column;
 }
+
+.square{
+    border: 1px solid black;
+}
