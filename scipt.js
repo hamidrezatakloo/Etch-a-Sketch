@@ -19,5 +19,7 @@ document.addEventListener('mouseover',(e)=>{
     if (! e.target.matches('.row > .square'))
         return;
     e.target.style.backgroundColor = `rgb(${rgbValue},${rgbValue},${rgbValue})`;
-    rgbValue += addValue    
+    rgbValue += addValue;
+    if(rgbValue<30 || rgbValue >150)
+        addValue = -addValue;
 })
